@@ -3,7 +3,10 @@
   "main": "angular-lzw.js",
   "version": "0.0.1",
   "authors": [
-    { "name": "Indamix", "homepage": "http://indamix.github.io" }
+    {
+      "name": "Indamix",
+      "homepage": "http://indamix.github.io"
+    }
   ],
   "description": "AngularJS service for LZW compression / decompression",
   "keywords": [
@@ -19,7 +22,9 @@
     ".gitignore",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
-  ]
+    "test"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.15"
+  }
 }
