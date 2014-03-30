@@ -20,11 +20,15 @@
   "ignore": [
     "**/.*",
     ".gitignore",
-    "node_modules",
     "bower_components",
-    "test"
+    "node_modules",
+    "test",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json"
   ],
   "devDependencies": {
-    "angular": "~1.2.15"
+    "angular": "~1.2.15",
+    "angular-mocks": "~1.2.15"
   }
 }

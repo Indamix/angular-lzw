@@ -1,0 +1,36 @@
+{
+  "name": "angular-lzw",
+  "version": "0.0.1",
+  "description": "AngularJS service for LZW compression / decompression",
+  "main": "angular-lzw.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt-karma": "~0.8.2",
+    "karma": "~0.12.1",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-jasmine": "~0.1.5",
+    "grunt": "~0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Indamix/angular-lzw.git"
+  },
+  "keywords": [
+    "angular",
+    "service",
+    "lzw",
+    "compression"
+  ],
+  "author": {
+    "name": "Indamix",
+    "homepage": "http://indamix.github.io"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Indamix/angular-lzw"
+}
