@@ -8,7 +8,7 @@
       "homepage": "http://indamix.github.io"
     }
   ],
-  "description": "AngularJS service for LZW compression / decompression",
+  "description": "AngularJS service for text compression / decompression using LZW algorithm",
   "keywords": [
     "angular",
     "service",

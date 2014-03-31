@@ -1,7 +1,7 @@
 [angular-lzw](http://indamix.github.io/angular-lzw)
 ===========
 
-AngularJS service for LZW compression / decompression
+AngularJS service for text compression / decompression using LZW algorithm
 
 Helps to save space in localStorage, sessionStorage, cookies etc.
 
