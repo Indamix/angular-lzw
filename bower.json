@@ -21,9 +21,11 @@
     "**/.*",
     ".gitignore",
     "bower_components",
+    "demo",
     "node_modules",
     "test",
     "Gruntfile.js",
+    "index.html",
     "karma.conf.js",
     "package.json"
   ],

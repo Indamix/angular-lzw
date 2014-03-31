@@ -1,0 +1,81 @@
+body {
+  font: 16px Helvetica Neue, Helvetica, Arial;
+}
+
+h1, h3, dl {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #558dff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: #1663ff;
+}
+
+h1, h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.case {
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info {
+  float: left;
+  width: 180px;
+  margin-right: 10px;
+}
+
+dt, dd {
+  display: inline-block;
+  margin: 0;
+}
+
+dt {
+  color: #666;
+}
+
+dd {
+  float: right;
+}
+
+.ex {
+  color: #666;
+  display: block;
+}
+
+.savings {
+  color: #390;
+  background: #c6ffc6;
+  padding: 0 10px;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+textarea {
+  font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+  width: 70%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.case {
+  margin-bottom: 10px;
+  overflow: auto;
+}
