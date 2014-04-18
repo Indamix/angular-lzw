@@ -1,6 +1,6 @@
 {
   "name": "angular-lzw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AngularJS service for text compression / decompression using LZW algorithm",
   "main": "angular-lzw.js",
   "directories": {

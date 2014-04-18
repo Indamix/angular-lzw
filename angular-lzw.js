@@ -8,7 +8,7 @@
       return {
         'compress': function (s) {
           var dict = {},
-              data = (s + '').split(''),
+              data = encodeURI(s + '').split(''),
               ret = [],
               phrase = data[0],
               code = 256,
@@ -45,7 +45,7 @@
             ++code;
             oldPhrase = phrase;
           }
-          return ret.join('');
+          return decodeURI(ret.join(''));
         }
       }
     });

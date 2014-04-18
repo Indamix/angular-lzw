@@ -12,7 +12,7 @@ describe('Service: LZW', function () {
 
   it('should compress and decompress properly', function () {
     var tests = [
-//      'UTF symbols: вот тут просто так не работает', // TODO
+      'UTF symbols: вот тут просто так не работает',
       'I have great desire   My desire is great',
       new Array(10).join('I have great desire   My desire is great'),
       new Array(10).join(' ').split('').map(Math.random).join(),
